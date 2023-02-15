@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+body{
+    background-image: url('minimalist-minimal-art-fox-night-wallpaper-28f6bd18e0200c88d0eca1ce186244ba.jpg');
+    background-size: contain;
+    background-color: black;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+html{
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.header{
+    height: 150px;
+    width: 100%;
+    display: inline-flex;
+    color: #F8EAD8;
+    flex-direction: row;
+}
+.footer{
+    height: 100px;
+    background-color:#20262E;;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+.header2{
+    margin-left: 90px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.signLogin{
+    margin-left: 300px;
+}
