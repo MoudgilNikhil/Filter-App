@@ -7,14 +7,14 @@
     font-weight: 300;
 }
 body{
-    background-image: url('minimalist-minimal-art-fox-night-wallpaper-28f6bd18e0200c88d0eca1ce186244ba.jpg');
-    background-size: contain;
-    background-color: black;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+    margin-bottom: 0%;
     height: 100vh;
-}
+    background-image: url('../logos/minimalist-minimal-art-fox-night-wallpaper-28f6bd18e0200c88d0eca1ce186244ba.jpg');
+    background-size: contain;
+    background-color: #2e253a;
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+  }
 html{
     top: 0px;
     right: 0px;
@@ -30,7 +30,9 @@ html{
 }
 .footer{
     height: 100px;
-    background-color:#20262E;;
+    background-color:#20262E;
+    bottom: 0px;
+    margin-top: 400px;
 }
 .logo{
     height: 150px;
@@ -49,4 +51,24 @@ html{
 }
 .signLogin{
     margin-left: 300px;
+}
+.flights{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-self: stretch;
+    margin-top: 100px;
+    color: #F8EAD8;
+}
+.flightName{
+    color: #F8EAD8;
+    margin-left: 600px;
+    font-size: xx-large;
+}
+.ending{
+    margin-left: 500px;
+    margin-top: 90px;
+    color: #F8EAD8;
+    font-size: xx-large;
 }
